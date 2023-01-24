@@ -4,9 +4,8 @@
   "description": "A command-line interface (CLI) tool that takes an integer from 0 to 100,000 and converts it into grammatically correct English words",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "cd tests && npx jest"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CyntiBinti/cli-num-to-words.git"
@@ -19,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/CyntiBinti/cli-num-to-words/issues"
   },
-  "homepage": "https://github.com/CyntiBinti/cli-num-to-words#readme"
+  "homepage": "https://github.com/CyntiBinti/cli-num-to-words#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
