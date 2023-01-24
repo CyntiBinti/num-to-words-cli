@@ -8,9 +8,9 @@ describe('Testing the numbersToWords function', () => {
 	});
 
     it('returns the correct words for a "tens" number', () => {
-		expect(numbersToWords(52)).toBe("thirty nine");
-		expect(numbersToWords(79)).toBe("fifty nine");
-        expect(numbersToWords(99)).toBe("ninety nine");
+		expect(numbersToWords(52)).toBe("fifty-two");
+		expect(numbersToWords(79)).toBe("seventy-nine");
+        expect(numbersToWords(99)).toBe("ninety-nine");
 	});
 
     it('returns the correct words for a "magnitude" number', () => {
@@ -22,3 +22,5 @@ describe('Testing the numbersToWords function', () => {
         expect(numbersToWords(12345)).toBe("twelve thousand, three hundred and forty-five");
 	});
 });
+
+// To-do: create test-cases array export so that dynamically parsed into jest function
