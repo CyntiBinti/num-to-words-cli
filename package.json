@@ -4,7 +4,7 @@
   "description": "A command-line interface (CLI) tool that takes an integer from 0 to 100,000 and converts it into grammatically correct English words",
   "main": "bin/numbers-to-words.js",
   "bin": {
-    "./bin/numbers-to-words": "./bin/numbers-to-words.js"
+    "numbers-to-words": "./bin/numbers-to-words.js"
   },
   "scripts": {
     "test": "cd tests && npx jest"
@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/CyntiBinti/cli-num-to-words#readme",
   "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "jest": "^29.3.1"
   }
 }
