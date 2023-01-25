@@ -2,10 +2,8 @@
   "name": "cli-num-to-words",
   "version": "1.0.0",
   "description": "A command-line interface (CLI) tool that takes an integer from 0 to 100,000 and converts it into grammatically correct English words",
-  "main": "index.js",
-  "bin": {
-    "numtowords": "bin/numbers-to-words.js"
-  },
+  "main": "bin/numbers-to-words.js",
+  "bin": "./bin/numbers-to-words",
   "scripts": {
     "test": "cd tests && npx jest"
   },
