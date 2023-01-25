@@ -68,7 +68,7 @@ I have addressed the following in my submission (summarised in the below table) 
 
 ------
 
-![Screenshot of the CLI tool working](https://amz.run/6Kti)
+![Screenshot of the CLI tool working](https://amz.run/6KuG)
 
 ------
 
