@@ -10,7 +10,7 @@ Clone this repository to your machine.
 
 ### 1 - Install Globally
 
-Run the below command to install the CLI tool globally (ie you can call the command from any directory on your computer's terminal). BUT, if you'd prefer to call this command within this projects directory only, then instead skip to step [2.a](#2a---if-not-globally-installed).
+Run the below command to install the CLI tool globally (ie you can call the command from any directory on your computer's terminal). BUT, if you'd prefer to call this command within this projects directory only, then instead skip to step [2.b](#2b---if-not-globally-installed).
 
 ```sh
 npm install -g .
@@ -18,7 +18,7 @@ npm install -g .
 
 ### 2 - How to Use
 
-#### 2.a - If Globally installed
+#### 2.a - If Globally installed (NB: if this doesnt work then please proceed to step 2.b instead)
 
 Type the following command in your terminal to run the CLI tool:
 
@@ -66,6 +66,12 @@ I have addressed the following in my submission (summarised in the below table) 
 
 ![Screenshot of passing Jest tests](https://amz.run/6KtV)
 
+------
+
+![Screenshot of the CLI tool working](https://amz.run/6Kti)
+
+------
+
 ### 6 - Reflections & Future Enhancements
 
 I enjoyed the challenge of this technical coding test, especially around:
@@ -86,7 +92,7 @@ Future Enhancements >> with more time, I would have liked to have:
 - added e.g. github actions as part of the CI/CD pipeline so that it can run various automated checks as part of the build
 - added linting/prettier rules to ensure a consistent code style (but I'm aware styles vary from organisation to organisation)
 - installed fun npm packages to add a cool UI to the CLI tool (to better enhance the users' experience) e.g. with *chalk* or *boxen*
-- figured out how to set the CLI command to be the filepath `./bin/numbers-to-words` -- I googled a lot, and tried many different things from the npm docs, but sadly I couldnt get it to work. Would especially appreciate any feedback around this for my own learning please!
+- figured out how to set the CLI command to be the filepath `./bin/numbers-to-words` -- I tried a number of solutions, but sadly I couldnt get it to work ([package.json](./package.json)). Would especially appreciate any feedback around this for my own learning please!
 
 Thank you for your consideration and hope to hear from you soon!
 
