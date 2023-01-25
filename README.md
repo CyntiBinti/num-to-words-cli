@@ -13,7 +13,7 @@ Clone this repository to your machine.
 Run the below command to install the CLI tool globally (ie you can call the command from any directory on your computer's terminal). BUT, if you'd prefer to call this command within this projects directory only, then instead skip to step [2.a](#2a---if-not-globally-installed).
 
 ```sh
-npm install -g cli-num-to-words
+npm install -g .
 ```
 
 ### 2 - How to Use
@@ -23,7 +23,7 @@ npm install -g cli-num-to-words
 Type the following command in your terminal to run the CLI tool:
 
 ```sh
-numtowords 99999
+./bin/numbers-to-words 99999
 ```
 
 #### 2.b - If NOT Globally Installed
@@ -64,7 +64,7 @@ I have addressed the following in my submission (summarised in the below table) 
 
 #### Screenshot-1
 
-![Screenshot of passing Jest tests](https://amz.run/6Kse)
+![Screenshot of passing Jest tests](https://amz.run/6KtV)
 
 ### 6 - Reflections & Future Enhancements
 
@@ -86,6 +86,7 @@ Future Enhancements >> with more time, I would have liked to have:
 - added e.g. github actions as part of the CI/CD pipeline so that it can run various automated checks as part of the build
 - added linting/prettier rules to ensure a consistent code style (but I'm aware styles vary from organisation to organisation)
 - installed fun npm packages to add a cool UI to the CLI tool (to better enhance the users' experience) e.g. with *chalk* or *boxen*
+- figured out how to set the CLI command to be the filepath `./bin/numbers-to-words` -- I googled a lot, and tried many different things from the npm docs, but sadly I couldnt get it to work. Would especially appreciate any feedback around this for my own learning please!
 
 Thank you for your consideration and hope to hear from you soon!
 
