@@ -33,5 +33,3 @@ describe('Testing the numbersToWords function', () => {
 
 	});
 });
-
-// To-do: create test-cases array export so that dynamically parses into jest function .toBe()
