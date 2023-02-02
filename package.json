@@ -1,5 +1,5 @@
 {
-  "name": "cli-num-to-words",
+  "name": "num-to-words-cli",
   "version": "1.0.0",
   "description": "A command-line interface (CLI) tool that takes an integer from 0 to 100,000 and converts it into grammatically correct English words",
   "main": "bin/numbers-to-words.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CyntiBinti/cli-num-to-words.git"
+    "url": "git+https://github.com/CyntiBinti/num-to-words-cli.git"
   },
   "keywords": [
     "cli"
@@ -19,9 +19,9 @@
   "author": "Cynthia Mbulu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CyntiBinti/cli-num-to-words/issues"
+    "url": "https://github.com/CyntiBinti/num-to-words-cli/issues"
   },
-  "homepage": "https://github.com/CyntiBinti/cli-num-to-words#readme",
+  "homepage": "https://github.com/CyntiBinti/num-to-words-cli#readme",
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-standard": "^17.0.0",
