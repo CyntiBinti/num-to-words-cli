@@ -1,7 +1,6 @@
-# Cynthia's Retro: loveholidays Technical Test
+# Welcome!
 
-For this technical test I completed it as a take-home assessment, using JavaScript and Node.js. 
-I have created a node.js CLI Tool that converts a users number input into grammatically correct English words (within a range of 0 to 100,000).
+I've created a node.js CLI Tool that converts a users number input into grammatically correct English words (within a range of 0 to 100,000).
 
 
 ## Getting started
@@ -50,7 +49,7 @@ npm run test
 
 ### 5 - Functional & Non-Functional Requirements
 
-I have addressed the following in my submission (summarised in the below table) (screenshots below where applicable):
+I have addressed the following in my code:
 
 | Done  | Requirement                       | Evidence                                       |
 |-------|-----------------------------------|------------------------------------------------|
@@ -58,7 +57,6 @@ I have addressed the following in my submission (summarised in the below table) 
 |  [x]  | Documentation						| [link](./README.md)
 |  [x]  | Error handling					| [link](./bin/numbers-to-words.js) & [link](./lib/utils.js)
 |  [x]  | Use of exit codes 				| [link](./bin/numbers-to-words.js)
-|  [x]  | Extensibility      				| [See reflections below](#reflections--future-enhancements)
 
 #### 5.a - Screenshots
 
@@ -74,7 +72,7 @@ I have addressed the following in my submission (summarised in the below table) 
 
 ### 6 - Reflections & Future Enhancements
 
-I enjoyed the challenge of this technical coding test, especially around:
+I enjoyed the challenge of coding this, especially around:
 - learning/researching how to build a CLI tool
 - using functional programming and the right data structures, algorithms, and helper functions to ensure the code was clean, aspects of it were reusable, and reflected good software engineering principles
 - using a TDD approach (i.e. I wrote my unit tests first and then from there I coded out the functionaility)
@@ -87,13 +85,12 @@ I feel my coding approach demonstrates extensibility as e.g.:
 - wrote pure functions, where I could (i.e. reusable blocks of code)
 - tried to incorporate good software engineering principles e.g. D-R-Y, K-I-S-S, etc etc
 
-Future Enhancements >> with more time, I would have liked to have:
-- refactored the code in `index.js` by abstracting out the helper function code blocks (when I tried moving them to the `utils.js` file, I would get a circular dependency error)
-- added e.g. github actions as part of the CI/CD pipeline so that it can run various automated checks as part of the build
-- installed fun npm packages to add a cool UI to the CLI tool (to better enhance the users' experience) e.g. with *chalk* or *boxen*
-- figured out how to set the CLI command to be the filepath `./bin/numbers-to-words` -- I tried a number of solutions, but sadly I couldnt get it to work ([package.json](./package.json)). Would especially appreciate any feedback around this for my own learning please!
+Future Enhancements:
+- refactor the code in `index.js` by abstracting out the helper function code blocks (when I tried moving them to the `utils.js` file, I would get a circular dependency error)
+- add e.g. github actions as part of the CI/CD pipeline so that it can run various automated checks as part of the build
+- install fun npm packages to add a cool UI to the CLI tool (to better enhance the users' experience) e.g. with *chalk* or *boxen*
 
-Thank you for your consideration and hope to hear from you soon!
+I hope you enjoy using it!
 
 Best wishes, 
 Cynthia
