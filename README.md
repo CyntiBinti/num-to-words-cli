@@ -30,7 +30,7 @@ numbers-to-words 99999
 Please note: if you did not install this CLI tool globally ([as per step 1 above](#1---install-globally)) then from the root directory of the project, run the following command in your terminal instead.
 
 ```sh
-npx cli-num-to-words 99999
+npx num-to-words-cli 99999
 ```
 
 ### 3 - Expected Result
